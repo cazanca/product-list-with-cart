@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/cazanca/ecommerce-product)
-- Live Site URL: (https://ecommerce-product-frontendmentor-kappa.vercel.app/)
+- Solution URL: (https://github.com/cazanca/product-list-with-cart)
+- Live Site URL: (https://product-list-with-cart-xi.vercel.app/)
 
 ### Built with
 
