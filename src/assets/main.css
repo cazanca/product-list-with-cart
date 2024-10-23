@@ -1,0 +1,52 @@
+/* red-hat-text-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/red-hat-text-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* red-hat-text-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/red-hat-text-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* red-hat-text-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/red-hat-text-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Red: hsl(14, 86%, 42%);
+  --Green: hsl(159, 69%, 38%);
+
+  --Rose-50: hsl(20, 50%, 98%);
+}
+
+body {
+  @apply bg-rose-100;
+}
+
+#app {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  @apply pt-[20px] md:pt-[80px] mb-10;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
